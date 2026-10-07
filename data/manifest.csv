@@ -1,0 +1,11 @@
+clip_id,audio_path,reference,language,tags
+hi_001,audio/hi_001.wav,मेरी EMI अगले सोमवार को कटेगी,hi,code-mixed;domain
+hi_002,audio/hi_002.wav,मैंने कल 1500 रुपये UPI से भेजे थे,hi,code-mixed;numbers;domain
+hi_003,audio/hi_003.wav,"सुरेश जी, आपका KYC अभी तक पूरा नहीं हुआ है",hi,code-mixed;names;domain
+hi_004,audio/hi_004.wav,कृपया अपना पता दोबारा बताइए,hi,pure
+kn_001,audio/kn_001.wav,ನನ್ನ EMI ಮುಂದಿನ ಸೋಮವಾರ ಕಟ್ ಆಗುತ್ತೆ,kn,code-mixed;domain
+kn_002,audio/kn_002.wav,ನಾನು ನಿನ್ನೆ 2000 ರೂಪಾಯಿ UPI ಮೂಲಕ ಕಳಿಸಿದೆ,kn,code-mixed;numbers;domain
+kn_003,audio/kn_003.wav,"ರಮೇಶ್ ಅವರೇ, ನಿಮ್ಮ KYC ಇನ್ನೂ ಕಂಪ್ಲೀಟ್ ಆಗಿಲ್ಲ",kn,code-mixed;names;domain
+kn_004,audio/kn_004.wav,ದಯವಿಟ್ಟು ನಿಮ್ಮ ವಿಳಾಸವನ್ನು ಮತ್ತೊಮ್ಮೆ ಹೇಳಿ,kn,pure
+en_001,audio/en_001.wav,Please transfer 2500 rupees via UPI to Ramesh,en,numbers;names;domain
+en_002,audio/en_002.wav,My Aadhaar and PAN details were updated on 12 March,en,numbers;domain

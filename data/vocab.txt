@@ -1,0 +1,12 @@
+# Domain terms the transcript should contain spelled exactly like this.
+# The last five never appear in the test sentences: they check for false alarms.
+EMI
+UPI
+KYC
+PAN
+Aadhaar
+NEFT
+IMPS
+RTGS
+CIBIL
+GST

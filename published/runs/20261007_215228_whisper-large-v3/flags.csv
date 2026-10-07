@@ -1,0 +1,31 @@
+﻿clip_id,language,condition,flags,hypothesis
+hi_001,hi,clean,,मेरी EMI अगले समवार को कठेगी
+hi_001,hi,telephony,,मेरी EMI अगले समवार को कटेगी
+hi_001,hi,telephony_noisy,,मेरी EMI आगले जगवार को कटीजी
+hi_002,hi,clean,,मैंने कल 1500 रुपए UPSA बेजे थे।
+hi_002,hi,telephony,,मैंने कल 1500 रुपए UPSA बेजे थे
+hi_002,hi,telephony_noisy,,"लेने कल 15,000 रुपए योग पियो से बेजेते हैं"
+hi_003,hi,clean,,"सुरेश जी, आपका KYC अभी तक पूरा नहीं हुआ है।"
+hi_003,hi,telephony,,सुरेश जी आपका KYC अभी तक पूरा नहीं हुआ है।
+hi_003,hi,telephony_noisy,,सुरेश जी आपका KYT अभी तक पूरा नहीं हुआ है
+hi_004,hi,clean,,कृपया अपना पता दुबारो बताईए
+hi_004,hi,telephony,,कृपया अपना बता दुबारो बताईए
+hi_004,hi,telephony_noisy,,कृपया अपना बताया दुवारो बतायी
+kn_001,kn,clean,,ನನ್ನ ಇಯಾಮ್ಮಾಯು ಮುಂದಿನು ಸೋಮ್ವಾರ ಕಟ್ಟಾಗುತ್ತೆ.
+kn_001,kn,telephony,,ನನ್ನ ಇಯಾಮಾಯು ಮುಂದಿನು ಸೋಮ್ವಾರ ಕಟ್ಟಾಗುತ್ತೆ.
+kn_001,kn,telephony_noisy,,ನನ್ನ ಇಯಮ್ಮಾಯ್ ಮುಂದಿನುಕ್ಕೊ ಒಂವಾರ ಕಟ್ಟಾವಿತ್ತೆ.
+kn_002,kn,clean,,ನಾನು ನಿನ್ನೆ 2000 ರುಪಾಯಿ ಉಪೆ ಮುಳಕ ಗಳಿಸಿದೆ.
+kn_002,kn,telephony,,ನಾನು ನಿನ್ನೆ ಎಡುಸಾವಿರ ರುಪಾಯಿ ಉಪೆಯೆ ಮೂಲಕ ಗಳಿಸಿದೆ.
+kn_002,kn,telephony_noisy,,ನಾನು ನಿನ್ನೆ ಎಳ್ಡುಸಾವರ ರುಪಾಯು ಉಪೆಯು ಮೂಳಗ ಕಳಿಸಿದೆ.
+kn_003,kn,clean,,ರಮೆಶವರೆ ನಿಮ್ಮ ಕೇವಾಯಸಿ ಇನ್ನು ಕಂಪ್ಪಿಟಾಗಿಲ್ಲ.
+kn_003,kn,telephony,,ರಮೆಶವರೆ ನಿಮ್ಮ ಕೇವಾಯಸಿ ಇನ್ನು ಕಂಪ್ಲಿಟಾಗಿಲ್ಲಾ.
+kn_003,kn,telephony_noisy,,ಬರಮ್ಮಿಷವರು ಇಮ್ಮ ಕೇವಾಯಿತಿ ಇನ್ನು ಕಂಪ್ಪಿಟಾರ್ಜಿಲ್ಲಾನು
+kn_004,kn,clean,,ದೈವಿಟು ನಿಮ್ಮ ವಿಳಾಸವನ್ನು ಮತ್ತಮೆ ಹೇಳಿ.
+kn_004,kn,telephony,,ದೈವಿಟು ನಿಮ್ಮ ವಿಳಾಸವನ್ನು ಮತ್ತಮೆ ಹೇಳಿ
+kn_004,kn,telephony_noisy,,ತಾಯಿವಿಕೆ ನಿಂಮಾದುಲಾಸೆ ವನ್ನು ಮಾತ್ತಮೆ ಹೇಲಿಸ್ತೆ?
+en_001,en,clean,,Please transfer 2500 rupees via UPI to Ramesh.
+en_001,en,telephony,,Please transfer 2500 rupees via UPI to Ramesh.
+en_001,en,telephony_noisy,,Please transfer 2500 rupees via UPI to Ramesh.
+en_002,en,clean,,My Aadhar and Paan details were updated on 12th March.
+en_002,en,telephony,,My Aadhaar and Paan details were updated on 12th March.
+en_002,en,telephony_noisy,,My Aadhar and Paan details were updated on 12 March.

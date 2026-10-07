@@ -1,0 +1,31 @@
+﻿clip_id,language,condition,flags,hypothesis
+hi_001,hi,clean,,मेरी EMI आगले समवार को गठीकी
+hi_001,hi,telephony,,मेरी EMI आगले स्वमवार को कट्टे की
+hi_001,hi,telephony_noisy,,"मेरे EMI आगे लेज़का, अभार को कटी"
+hi_002,hi,clean,,मेंने कल पंद्रासो रुपेयों पियेसे बेजे थे
+hi_002,hi,telephony,,मेंने कल पंद्रा सो रुपे यूपिये से बेजे थे
+hi_002,hi,telephony_noisy,,"बैंक की पन्राण दोरोप्रेइो, PIEC, PYT"
+hi_003,hi,clean,,"सुरेश जी, आपका KYC अभी तक पूरा नहीं हुआ है।"
+hi_003,hi,telephony,,सुरेश जी आपका KYC अभी तक पूरा नहीं हुआ है
+hi_003,hi,telephony_noisy,,"शुरेश जी, आपका KYC अभी तर्फ पूरा नहीं हुआ है"
+hi_004,hi,clean,,कॉर्पयापनापादा दो बारापादाई
+hi_004,hi,telephony,,"कृपयापनापता, दोवारापताई"
+hi_004,hi,telephony_noisy,,कुल्पापना बारो बारो बारी
+kn_001,kn,clean,,ನನ್ನ ಇಯಾಮ್ಮಾಯಿ ಮುಂದಿನು ಸೋಂವಾರ ಕಟ್ಟಾಗುತ್ದೆ.
+kn_001,kn,telephony,,ನನ್ನ ಇಯಾಮಾಯಿ ಮುಂದಿನು ಸೋಂವಾರ ಕಟ್ಟಾಗುತೆ
+kn_001,kn,telephony_noisy,romanized_or_translated,"ನನ್ನ, IM, IM, MUDD, NUK, AUVAR, KATTA, VINTHED."
+kn_002,kn,clean,,ನಾನು ನಿನ್ನೆ ಎರಡು ಸಾವಿರ ರೂಪಾಯಿ ಯೂಪ್ಯೆ ಮೂಳಕ ಕಳಿಸಿದೆ.
+kn_002,kn,telephony,foreign_script,நானு நின்னை எடுசாவிர ரூப்பையை முளக்க் கழிச்தே
+kn_002,kn,telephony_noisy,,ನಾನುನಿನೆ ಎಳಡುಸಾವಿರ ರೂಪಯ ಇವಪಯಾಂದ ಮೊಳದದ ಕಳಿಕಿದೆ.
+kn_003,kn,clean,,ಕ್ರಮೆಶವರೆ ನಿಮ್ಮ ಕೇವಾಯಸಿಯನ್ನು ಕಂಪ್ಪ್ಲಿಟಾಗಿಲ್ಲಾ.
+kn_003,kn,telephony,,ಕ್ರಮೆಶವರೆ ನಿಮ್ಮ ಕೇವಾಯಿಸಿಯನ್ನು ಕಂಪ್ಪಿಟಾಗಿಲ್ಲಾ?
+kn_003,kn,telephony_noisy,romanized_or_translated,"BRAMASHAVAR, IMMA KYC, INNO, KAMPLETE AADJILLA"
+kn_004,kn,clean,foreign_script;romanized_or_translated,"বས્ಯಾಂದ, NIMMA VILAASA VENNMATTHAM MEHAYLI"
+kn_004,kn,telephony,,ದೈವಿಟು ನಿಮ್ಮ ವಿಳಾಸವನ್ನು ಮತ್ತಮ್ ಮೆಯಳಿ?
+kn_004,kn,telephony_noisy,romanized_or_translated;prompt_echo,"PAN, AADHAAR, NEFT, IMPS, RETURN, GSTಠ"
+en_001,en,clean,,Please transfer 2500 rupees via UPI to Ramesh
+en_001,en,telephony,,Please transfer 2500 rupees via UPI to Ramesh.
+en_001,en,telephony_noisy,,Please transfer 2500 rupees via UPI to Ramesh.
+en_002,en,clean,,My Aadhaar and PAN details were updated on 12th March
+en_002,en,telephony,,My Aadhaar and PAN details were updated on 12th March
+en_002,en,telephony_noisy,,My Aadhaar and SPAN details were updated on 12 months

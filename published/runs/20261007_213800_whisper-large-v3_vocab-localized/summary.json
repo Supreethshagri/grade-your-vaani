@@ -1,0 +1,148 @@
+{
+  "run_id": "20261007_213800_whisper-large-v3_vocab-localized",
+  "model": "whisper-large-v3",
+  "normalizer": "v2",
+  "vocab": "localized",
+  "prompts": {
+    "en": "Bank call: EMI, UPI, KYC, PAN, Aadhaar, NEFT, IMPS, RTGS, CIBIL, GST",
+    "hi": "बैंक कॉल: EMI, UPI, KYC, PAN, Aadhaar, NEFT, IMPS, RTGS, CIBIL, GST",
+    "kn": "ಬ್ಯಾಂಕ್ ಕರೆ: EMI, UPI, KYC, PAN, Aadhaar, NEFT, IMPS, RTGS, CIBIL, GST"
+  },
+  "vocab_terms": [
+    "EMI",
+    "UPI",
+    "KYC",
+    "PAN",
+    "Aadhaar",
+    "NEFT",
+    "IMPS",
+    "RTGS",
+    "CIBIL",
+    "GST"
+  ],
+  "conditions": [
+    "clean",
+    "telephony",
+    "telephony_noisy"
+  ],
+  "noisy_snr_db": 10.0,
+  "noise_source": "white noise",
+  "created_at": "2026-10-07T21:39:34",
+  "calls": 30,
+  "cache_hits": 0,
+  "failures": 0,
+  "pace_s": 3.1,
+  "latency_source": "fresh API calls",
+  "slow_calls": 0,
+  "by_condition": {
+    "clean": {
+      "en": {
+        "clips": 2,
+        "wer_raw": 0.1667,
+        "cer_raw": 0.0417,
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "hi": {
+        "clips": 4,
+        "wer_raw": 0.3103,
+        "cer_raw": 0.1212,
+        "wer": 0.2069,
+        "cer": 0.0916
+      },
+      "kn": {
+        "clips": 4,
+        "wer_raw": 0.6,
+        "cer_raw": 0.293,
+        "wer": 0.6,
+        "cer": 0.2949
+      }
+    },
+    "telephony": {
+      "en": {
+        "clips": 2,
+        "wer_raw": 0.1667,
+        "cer_raw": 0.0417,
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "hi": {
+        "clips": 4,
+        "wer_raw": 0.4483,
+        "cer_raw": 0.303,
+        "wer": 0.4138,
+        "cer": 0.2824
+      },
+      "kn": {
+        "clips": 4,
+        "wer_raw": 0.64,
+        "cer_raw": 0.3121,
+        "wer": 0.64,
+        "cer": 0.3077
+      }
+    },
+    "telephony_noisy": {
+      "en": {
+        "clips": 2,
+        "wer_raw": 0.1667,
+        "cer_raw": 0.0729,
+        "wer": 0.0556,
+        "cer": 0.0417
+      },
+      "hi": {
+        "clips": 4,
+        "wer_raw": 0.9655,
+        "cer_raw": 0.7955,
+        "wer": 0.9655,
+        "cer": 0.7786
+      },
+      "kn": {
+        "clips": 4,
+        "wer_raw": 0.88,
+        "cer_raw": 0.586,
+        "wer": 0.88,
+        "cer": 0.5833
+      }
+    }
+  },
+  "keywords": {
+    "clean": {
+      "expected": 9,
+      "found": 5,
+      "recall": 0.5556,
+      "false_alarms": 0
+    },
+    "telephony": {
+      "expected": 9,
+      "found": 4,
+      "recall": 0.4444,
+      "false_alarms": 0
+    },
+    "telephony_noisy": {
+      "expected": 9,
+      "found": 4,
+      "recall": 0.4444,
+      "false_alarms": 0
+    }
+  },
+  "latency": {
+    "clean": {
+      "calls": 10,
+      "latency_median_s": 0.42,
+      "latency_max_s": 0.533,
+      "rtf_median": 0.103
+    },
+    "telephony": {
+      "calls": 10,
+      "latency_median_s": 0.439,
+      "latency_max_s": 0.517,
+      "rtf_median": 0.106
+    },
+    "telephony_noisy": {
+      "calls": 10,
+      "latency_median_s": 0.378,
+      "latency_max_s": 1.875,
+      "rtf_median": 0.094
+    }
+  }
+}

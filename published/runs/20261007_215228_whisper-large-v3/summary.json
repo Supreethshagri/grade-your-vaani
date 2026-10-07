@@ -1,0 +1,148 @@
+{
+  "run_id": "20261007_215228_whisper-large-v3",
+  "model": "whisper-large-v3",
+  "normalizer": "v2",
+  "vocab": "none",
+  "prompts": {
+    "en": "",
+    "hi": "",
+    "kn": ""
+  },
+  "vocab_terms": [
+    "EMI",
+    "UPI",
+    "KYC",
+    "PAN",
+    "Aadhaar",
+    "NEFT",
+    "IMPS",
+    "RTGS",
+    "CIBIL",
+    "GST"
+  ],
+  "conditions": [
+    "clean",
+    "telephony",
+    "telephony_noisy"
+  ],
+  "noisy_snr_db": 10.0,
+  "noise_source": "white noise",
+  "created_at": "2026-10-07T21:54:01",
+  "calls": 30,
+  "cache_hits": 0,
+  "failures": 0,
+  "pace_s": 3.1,
+  "latency_source": "fresh API calls",
+  "slow_calls": 0,
+  "by_condition": {
+    "clean": {
+      "en": {
+        "clips": 2,
+        "wer_raw": 0.2778,
+        "cer_raw": 0.0833,
+        "wer": 0.1111,
+        "cer": 0.0208
+      },
+      "hi": {
+        "clips": 4,
+        "wer_raw": 0.3448,
+        "cer_raw": 0.1061,
+        "wer": 0.2414,
+        "cer": 0.0763
+      },
+      "kn": {
+        "clips": 4,
+        "wer_raw": 0.72,
+        "cer_raw": 0.3121,
+        "wer": 0.68,
+        "cer": 0.2821
+      }
+    },
+    "telephony": {
+      "en": {
+        "clips": 2,
+        "wer_raw": 0.2222,
+        "cer_raw": 0.0729,
+        "wer": 0.0556,
+        "cer": 0.0104
+      },
+      "hi": {
+        "clips": 4,
+        "wer_raw": 0.3448,
+        "cer_raw": 0.1061,
+        "wer": 0.2414,
+        "cer": 0.0763
+      },
+      "kn": {
+        "clips": 4,
+        "wer_raw": 0.68,
+        "cer_raw": 0.3439,
+        "wer": 0.68,
+        "cer": 0.3205
+      }
+    },
+    "telephony_noisy": {
+      "en": {
+        "clips": 2,
+        "wer_raw": 0.2222,
+        "cer_raw": 0.0625,
+        "wer": 0.1111,
+        "cer": 0.0208
+      },
+      "hi": {
+        "clips": 4,
+        "wer_raw": 0.5172,
+        "cer_raw": 0.2652,
+        "wer": 0.4483,
+        "cer": 0.2519
+      },
+      "kn": {
+        "clips": 4,
+        "wer_raw": 0.88,
+        "cer_raw": 0.5924,
+        "wer": 0.84,
+        "cer": 0.5705
+      }
+    }
+  },
+  "keywords": {
+    "clean": {
+      "expected": 9,
+      "found": 3,
+      "recall": 0.3333,
+      "false_alarms": 0
+    },
+    "telephony": {
+      "expected": 9,
+      "found": 4,
+      "recall": 0.4444,
+      "false_alarms": 0
+    },
+    "telephony_noisy": {
+      "expected": 9,
+      "found": 2,
+      "recall": 0.2222,
+      "false_alarms": 0
+    }
+  },
+  "latency": {
+    "clean": {
+      "calls": 10,
+      "latency_median_s": 0.374,
+      "latency_max_s": 0.497,
+      "rtf_median": 0.085
+    },
+    "telephony": {
+      "calls": 10,
+      "latency_median_s": 0.378,
+      "latency_max_s": 0.459,
+      "rtf_median": 0.087
+    },
+    "telephony_noisy": {
+      "calls": 10,
+      "latency_median_s": 0.378,
+      "latency_max_s": 0.455,
+      "rtf_median": 0.083
+    }
+  }
+}

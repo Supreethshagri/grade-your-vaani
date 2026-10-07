@@ -1,0 +1,31 @@
+﻿clip_id,language,condition,flags,hypothesis
+hi_001,hi,clean,,मेरी EMI आगले समवार को गठी की
+hi_001,hi,telephony,,"मेरी EMI, आगले सवमवार को कट्टे की"
+hi_001,hi,telephony_noisy,,"मेरी EMI आगले, कामबार को कटी"
+hi_002,hi,clean,,मेंने कल पंद्रासो रुपेयो पिये से बेजे थे
+hi_002,hi,telephony,,मेंने कल पंद्रा सो रुपे यूपिये से बेजे थे
+hi_002,hi,telephony_noisy,romanized_or_translated,"Meneca, Ipan, Rato, Rupreyo, PSPGT"
+hi_003,hi,clean,,"सुरेश जी, आपका KYC अभी तक पूरा नहीं हुआ है"
+hi_003,hi,telephony,,सुरेश जी आपका KYC अभी तक पूरा नहीं हुआ है
+hi_003,hi,telephony_noisy,,"सुरेश जी, आपका KYC अभी तर पूरा नहीं हुआ है"
+hi_004,hi,clean,romanized_or_translated,KRIPIA APNA BATA DOBARA BATA YEE
+hi_004,hi,telephony,romanized_or_translated,KRIPYA APNA BATA DOBARA BATA YEE
+hi_004,hi,telephony_noisy,romanized_or_translated,"Kupiafna, Pata, Pudwarov, Pata, IMPS"
+kn_001,kn,clean,romanized_or_translated,NANNA IYAMAYI MUNDDIN SOMEWHAMVARA KATTAGUDDHE
+kn_001,kn,telephony,romanized_or_translated,NANNA IYAMAYI MUONDINNA SOMVARE KATTAGUDTAY
+kn_001,kn,telephony_noisy,romanized_or_translated,"EMI, UPI, UPI, AND CUTED."
+kn_002,kn,clean,foreign_script,நானு நின்னை எடு சாவிரர் ரூப்பையை முலக்க் கழிசிதே
+kn_002,kn,telephony,foreign_script,நானு நின்னை எடுச் அவிர ரூப்பையை முளக்க் கழிச்தே
+kn_002,kn,telephony_noisy,romanized_or_translated,NANU NINNE YELUKUXS AVERA ROOPPAI YEOPYAYA MOOLLAGT KALISTYETER
+kn_003,kn,clean,romanized_or_translated,"Grameshavaray, NIKAYC, INNU, KAMPLEET, AAK YILLA"
+kn_003,kn,telephony,romanized_or_translated,"KRAMESHAVARE, NIMMAK KYC INNUMPLETE AAK YILLA"
+kn_003,kn,telephony_noisy,romanized_or_translated,"BRAMASHA VARU, IMMA KYC, INNO, KAMPLETE AADJILLA"
+kn_004,kn,clean,romanized_or_translated,Dive to NIMA VILASA VENNMATTHAM MEHELY
+kn_004,kn,telephony,foreign_script;romanized_or_translated,"ববས્રા, NEEDH, NIMA, ULASA, VENNMATMUHAYLEE"
+kn_004,kn,telephony_noisy,romanized_or_translated;prompt_echo,"EMI, UPI, KYC, PAN, AADHAAR, NEFT, IMPS, RTGS, CIBIL, GST"
+en_001,en,clean,,Please transfer 2500 rupees via UPI to Ramesh
+en_001,en,telephony,,Please transfer 2500 rupees via UPI to Ramesh.
+en_001,en,telephony_noisy,,Please transfer 2500 rupees via UPI to Ramesh.
+en_002,en,clean,,My Aadhaar and PAN details were updated on 12th March
+en_002,en,telephony,,My Aadhaar and PAN details were updated on 12th March
+en_002,en,telephony_noisy,,My Aadhaar and SPAN details were updated on 12 months
