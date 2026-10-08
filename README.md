@@ -6,12 +6,10 @@ Most ASR benchmarks use clean English audio. Indian customer calls are noisy, co
 
 It runs the same recordings through Whisper large-v3 and large-v3-turbo (via Groq) under three audio conditions. It scores them with WER/CER after careful normalization and measures latency. It also tests whether vocabulary hints help with terms like EMI, UPI and KYC, and flags outputs that are broken rather than just inaccurate.
 
-**Live demo:** https://YOUR-APP.onrender.com
+**Live demo:** https://grade-your-vaani.onrender.com
 It has a results dashboard, plus a page where you can record your own voice and see how both models do.
 
 > Hosted on Render's free tier. If it has been idle, the first load takes about a minute.
-
-<!-- Add a 60-90 second demo video or GIF here -->
 
 ## Key findings
 
