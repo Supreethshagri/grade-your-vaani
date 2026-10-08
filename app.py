@@ -94,7 +94,7 @@ st.caption("How well does Whisper understand Hindi, Kannada and English: on clea
            "over a phone line, and with background noise?")
 st.info("Small benchmark: 10 clips (4 Hindi, 4 Kannada, 2 English) from one speaker, a simulated "
         "G.711 phone line, and white noise at 10 dB SNR. Treat the results as directional, not definitive.")
-
+st.page_link("pages/1_Try_your_voice.py", label="Try it with your own voice", icon="🎙️")
 if FINDINGS.is_file():
     st.subheader("Key findings")
     st.markdown(FINDINGS.read_text(encoding="utf-8"))
